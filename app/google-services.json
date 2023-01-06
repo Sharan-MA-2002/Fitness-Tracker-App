@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "671100212064",
+    "firebase_url": "https://fir-signin-aa6dd-default-rtdb.firebaseio.com",
+    "project_id": "fir-signin-aa6dd",
+    "storage_bucket": "fir-signin-aa6dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671100212064:android:c3efc0f87913632f668405",
+        "android_client_info": {
+          "package_name": "com.hfad.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671100212064-6kib79pegspa912f7ndo4as25g58tn9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-s1lghZOQjs9rGP1ebfGSdJdxSUhW170"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671100212064-6kib79pegspa912f7ndo4as25g58tn9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671100212064:android:d5e8e02328e25efe668405",
+        "android_client_info": {
+          "package_name": "com.hfad.firebasegooglesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671100212064-l9hseqqmighu205ib1d045plbsrsvu1r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hfad.firebasegooglesignin",
+            "certificate_hash": "afab12cf0f846958991296618dc1c74ef7008a4c"
+          }
+        },
+        {
+          "client_id": "671100212064-6kib79pegspa912f7ndo4as25g58tn9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-s1lghZOQjs9rGP1ebfGSdJdxSUhW170"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671100212064-6kib79pegspa912f7ndo4as25g58tn9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671100212064:android:92fd8e3daf311216668405",
+        "android_client_info": {
+          "package_name": "com.hfad.runningtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671100212064-6kib79pegspa912f7ndo4as25g58tn9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-s1lghZOQjs9rGP1ebfGSdJdxSUhW170"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671100212064-6kib79pegspa912f7ndo4as25g58tn9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

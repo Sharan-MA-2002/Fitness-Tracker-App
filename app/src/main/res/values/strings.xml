@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Fit Guru</string>
+    <string name="google_maps_key">AIzaSyCaLOD--V5Xsdv0p1yWvzK8zetZJuE-7ZI</string>
+    <string name="google_maps_api_key_2">AIzaSyCHyWg-uKZuOoZkKnHhNVbdpbq78VCp-pw</string>
+    <string-array name="filter_options">
+        <item>Date</item>
+        <item>Running Time</item>
+        <item>Distance</item>
+        <item>Average Speed</item>
+        <item>Calories Burned</item>
+    </string-array>
+</resources>

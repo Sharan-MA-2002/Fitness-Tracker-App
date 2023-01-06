@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="1dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview1"
+                android:layout_width="195dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="3dp"
+                android:layout_marginBottom="6dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="6dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvTotalTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="25dp"
+                    android:gravity="center"
+                    android:text="00:00:00"
+                    android:textSize="25sp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvTotalTimeInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="Total Time in hh:mm:ss"
+                    android:textSize="12sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview2"
+                android:layout_width="195dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="6dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="6dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvTotalDistance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="25dp"
+                    android:gravity="center"
+                    android:text="0 km"
+                    android:textSize="25sp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvTotalDistanceInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="Total Distance in km"
+                    android:textSize="12sp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview3"
+                android:layout_width="195dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="6dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="6dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvTotalCalories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="25dp"
+                    android:gravity="center"
+                    android:text="0 kcal"
+                    android:textSize="25sp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvTotalCaloriesInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:gravity="center"
+                    android:text="Total Calories Burned"
+                    android:textSize="12sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardview4"
+                android:layout_width="193dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="6dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="6dp">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvAverageSpeed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="25dp"
+                    android:gravity="center"
+                    android:text="0 km/h"
+                    android:textSize="25sp" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tvAverageSpeedInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Total Avg Speed"
+                    android:textSize="12sp" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
